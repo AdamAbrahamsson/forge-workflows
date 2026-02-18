@@ -8,3 +8,8 @@ variable "db_password" {
   type        = string
   sensitive   = true 
 }
+
+variable "administrator_login" {
+  description = "The user for the Postgres DB"
+  type        = string
+}
