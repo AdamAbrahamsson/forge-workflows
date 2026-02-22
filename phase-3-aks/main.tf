@@ -15,7 +15,7 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "aks" {
   name     = "adam-azure-cluster"
-  location = "North Europe"
+  location = "Sweden Central"
 }
 
 resource "azurerm_kubernetes_cluster" "main" {
@@ -50,7 +50,7 @@ resource "azurerm_postgresql_flexible_server" "n8n_db" {
   name                = "psql-n8n-forge"
   resource_group_name = azurerm_resource_group.aks.name
   location            = azurerm_resource_group.aks.location
-  zone                = "2"
+  # zone                = "2"
 
   administrator_login    = var.administrator_login
   administrator_password = var.db_password
