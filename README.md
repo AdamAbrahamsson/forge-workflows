@@ -5,7 +5,7 @@ Terraform-managed Azure infrastructure for the Forge project: an AKS cluster and
 ## What’s in this repo
 
 - **`phase-3-aks/`** — Terraform module that provisions:
-  - **Resource group** — `adam-azure-cluster` in North Europe
+  - **Resource group** — `adam-azure-cluster` in Sweden Central
   - **AKS cluster** — `forge-cluster` (Kubernetes 1.32, single node pool, Cilium networking)
   - **PostgreSQL Flexible Server** — `psql-n8n-forge` with an `n8n` database for workflow automation
 
