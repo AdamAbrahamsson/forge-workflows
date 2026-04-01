@@ -1,4 +1,5 @@
 # forge-workflows
+PLEASE NOTE THAT THIS PROJECT IS ONGOING
 
 Terraform-managed Azure infrastructure for the Forge project: an AKS cluster and a PostgreSQL database for n8n.
 
